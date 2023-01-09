@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height:100%
+
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+
+}
+
+.header {
+    background-image: url(img/937631ae719d2486969d9cfe99d5e290.jpeg);
+    width: 100%;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    left:0;
+    font-family:'Pacifico', cursive;
+}
+
+.nav__list {
+    display: flex;
+    column-gap:  50px;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.main {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(img/maxresdefault\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.christmas1 {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+}
+
+.christmas {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;;
+    
+}
+
+.main__desc {
+    max-width: 500px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.gif {
+    width: 450px;
+    height: 250px;
+    
+}
+
+.block {
+    padding-top: 179px;
+    padding-left: 1080px;
+}
